@@ -3,6 +3,11 @@
 A proof-of-concept workflow for identifying potentially novel (out-of-distribution, or OOD) observations and prioritizing them for human attention. The prototype combines energy-based OOD scoring, feature-attribution-based characterization, predictive uncertainty, priority ranking, and a traceable history of triage decisions.
 
 > **Scope:** This is a controlled demonstration using small animal-category CSV datasets. It is not a validated production system, and its saved metrics should not be interpreted as evidence of performance on arbitrary real-world data.
+## Dataset Ownership
+
+The animal-category datasets used in this prototype were independently prepared for this project by ME, all of it. They provide the known-class training observations and incoming observations used to demonstrate novelty detection, uncertainty estimation, and human-in-the-loop triage.
+
+The datasets are distinct from the externally sourced simulated LSST dataset used in the astronomy adaptation.
 
 ## What the prototype does
 
