@@ -1,0 +1,6 @@
+{
+  "ood_roc_auc": 0.8014914772727272,
+  "top_k": 20,
+  "top_k_unknown_count": 19,
+  "top_k_unknown_precision": 0.95
+}
